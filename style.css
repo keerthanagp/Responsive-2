@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,400;1,500&family=Poppins:ital,wght@0,200;0,400;0,500;0,700;1,600;1,700&family=Shantell+Sans:wght@300&display=swap');
+   *{
+      font-family: 'Golos Text', sans-serif;    
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+} 
+ body{
+   padding: 40px;
+    border: 3px solid black;
+    height:40%;
+    width: 60%;
+    gap: 2rem;
+    align-items: center;
+}
+.container{
+   
+    padding: 20px;
+
+}
+.container .box h1, .words{
+    text-align: center;
+    font-size: 20px;
+}
+.container .box h1{
+    font-family: 'Shantell Sans', cursive;
+    font-size: 35px;  
+}
+.innerbox{
+    border: 2px solid black;
+    margin: 25px;
+}
+.innerbox .images img{
+   height: 150px;
+   width: 200px;
+   padding: 10px;
+   margin: 50px;
+   position: absolute;
+}
+.forms ,label{
+   position: relative;
+   left: 20rem; right: 0;
+   padding: 50px;
+   margin: 20px;
+} 
+.forms input{
+    margin: 0.5rem;
+} 
+  
+
+
+
+
